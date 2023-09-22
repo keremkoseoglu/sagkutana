@@ -19,5 +19,5 @@ setuptools.setup(
     ],
     python_requires=sagkutana.PYTHON_VERSION,
     install_requires=[],
-    include_package_data=True
+    include_package_data=True,
 )
