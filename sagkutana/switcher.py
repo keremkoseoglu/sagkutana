@@ -9,14 +9,14 @@ class Switcher:
 
     @staticmethod
     def decrypt_text(text: str) -> str:
-        """Hidden -> regular text"""
+        """Hidden -> regular text replacement"""
         return Switcher._get_replaced_string(
             text, Switcher._DECRPYTED, Switcher._ENCRYPTED
         )
 
     @staticmethod
     def encrypt_text(text: str) -> str:
-        """Regular -> hidden text"""
+        """Regular -> hidden text replacement"""
         return Switcher._get_replaced_string(
             text, Switcher._ENCRYPTED, Switcher._DECRPYTED
         )
